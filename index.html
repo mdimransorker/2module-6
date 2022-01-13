@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
     <div class="audio">
-        <h1>This is the html audio tag</h1>
-        <audio  controls >
-            <source src="audio/roa-music-winter-magic.mp3" type="audio/mp3" >
-        </audio>
-
+      <h1>This is the html audio tag</h1>
+      <audio controls>
+        <source src="audio/roa-music-winter-magic.mp3" type="audio/mp3" />
+      </audio>
     </div>
     <!-- <div class="video">
         <h1>This is a html video tag</h1>
@@ -21,9 +21,82 @@
         </video>
 
     </div> -->
-    <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/6JQx2Sjel0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    <!-- <div>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/6JQx2Sjel0U"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div> -->
+
+    <!-- <tbody>  
+    <table>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Full Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+              </tr>
+        </thead>
+        <tr>
+          <td>1</td>
+          <td>Bill Gates</td>
+          <td>Founder Microsoft</td>
+          <td>$1000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Steve jobs</td>
+          <td>Founder Apple</td>
+          <td>$1200</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Larry Page</td>
+          <td>Founder Google</td>
+          <td>$1100</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Mark Zuckeberg</td>
+          <td>Founder Facebook</td>
+          <td>$1300</td>
+        </tr>
+      </table>
+    </tbody>
+     -->
+     <form action="">
+        <fieldset>
+            <legend>Enter your details Please</legend>
+            <label for="Name">First Name:</label>
+            <input type="text" name="Name" id="Name" placeholder="write your first name"><br><br>
+            <label for="Name">Last Name:</label>
+            <input type="text" name="Name" id="Name" placeholder="write your Last name"><br><br>
+            <label for="email">E-mail:</label> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" name="email" id="email" placeholder="Enter your valid email"><br><br>
+            <label for="gender">Gender:</label>
+            <input type="checkbox" name="male" id="male">Male
+            <input type="checkbox" name="female" id="female">Female
+            <br><br>
+            <label for="class">Class:</label>
+            
+            <label for=""><input type="radio" name="class" id="class">Six
+            <input type="radio" name="class" id="class">Seven
+            <input type="radio" name="class" id="class">Eight
+            <br><br>
+            <p>Special Instruction</p>
+            <textarea name="instruction" id="some" cols="30" rows="10"></textarea><br><br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </fieldset>
+
+     </form>
    
-</body>
+    
+  </body>
 </html>
